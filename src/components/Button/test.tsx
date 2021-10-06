@@ -14,7 +14,7 @@ describe('<Button />', () => {
     ).toBeInTheDocument();
 
     expect(container.firstChild).toHaveStyle({
-      'background-color': theme.colors.cyan,
+      'background-color': theme.colors.white,
       color: theme.colors.black
     });
   });

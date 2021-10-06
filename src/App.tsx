@@ -5,12 +5,12 @@ import { theme, GlobalStyles } from 'styles';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
+    <div className="App">
+      <ThemeProvider theme={theme}>
         <Button />
-      </div>
-      <GlobalStyles />
-    </ThemeProvider>
+        <GlobalStyles />
+      </ThemeProvider>
+    </div>
   );
 }
 

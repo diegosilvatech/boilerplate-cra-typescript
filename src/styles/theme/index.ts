@@ -1,8 +1,7 @@
 export default {
   colors: {
     white: '#FFFFFF',
-    black: '#000000',
-    cyan: '#00E7F9'
+    black: '#000000'
   },
   grid: {
     desktop: {

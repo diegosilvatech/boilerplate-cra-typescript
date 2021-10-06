@@ -16,7 +16,8 @@
         "ssr": false,
         "displayName": true
       }
-    ]
+    ],
+    "react-require"
   ],
   "env": {
     "test": {

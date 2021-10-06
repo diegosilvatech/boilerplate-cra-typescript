@@ -1,5 +1,11 @@
 import * as s from './styles';
 
-const Button = () => <s.ButtonWrapper>button label</s.ButtonWrapper>;
+export type ButtonProps = {
+  variant?: 'primary' | 'secondary';
+};
+
+const Button = ({ variant = 'primary' }: ButtonProps) => (
+  <s.ButtonWrapper variant={variant}>button label</s.ButtonWrapper>
+);
 
 export default Button;
