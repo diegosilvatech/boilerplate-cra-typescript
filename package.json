@@ -12,7 +12,7 @@
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "yarn test:generate-output && start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {

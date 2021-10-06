@@ -6,6 +6,9 @@ export default {
   component: Button,
   args: {
     variant: 'primary'
+  },
+  parameters: {
+    jest: ['Button.test.tsx']
   }
 } as Meta;
 
