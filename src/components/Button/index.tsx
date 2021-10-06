@@ -1,3 +1,3 @@
-const Button = () => <button onClick={() => alert('HI!')}>hi!</button>;
+const Button = () => <button>button label</button>;
 
 export default Button;
