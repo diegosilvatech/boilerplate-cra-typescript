@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+## BOILERPLATE | CRA with TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### react, typescript, styled-componets, storybook, jest, react testing library and more...
 
-## Available Scripts
+---
+
+### ABOUT THIS PROJECT
+
+This project is a template for ReactJS project. This template was built with Create React App and TypeScript. Made by [Diego Silva](https://www.linkedin.com/in/coderamos/)
+
+---
+
+### AVALIABLE SCRIPTS
 
 In the project directory, you can run:
 
-### `yarn start`
+```jsx
+// installing the dependencies
+yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```jsx
+// run project on http://localhost:3000/
+yarn dev
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+_Run the app in the development mode by opening [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits._
 
-### `yarn test`
+```jsx
+// build project
+yarn build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```jsx
+// starts a simple server with the build production code
+yarn start
+```
 
-### `yarn build`
+```jsx
+// runs the linter in all components and pages
+yarn lint
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```jsx
+// runs jest to test all components and pages
+yarn test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```jsx
+// runs jest in watch mode
+yarn test:watch
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```jsx
+// creates .jest-test-results.json file to @storybook/addon-jest
+yarn test:generate-output
+```
 
-### `yarn eject`
+```jsx
+// runs storybook on http://localhost:6006/
+yarn storybook
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/pt-BR/docs/install)._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### MAIN TECHNOLOGIES USED
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+#### [typescript](https://www.typescriptlang.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> To give more power to my JavaScript code.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### [styled-components](https://styled-components.com/)
+
+> To stylize my app as components.
+
+---
+
+### ABOUT ME
+
+My Github profile: https://github.com/coderamos/
+
+My Linkedin profile: https://www.linkedin.com/in/coderamos/
+
+---
+
+_Learn more about `NextJS` through the [official documentation](https://nextjs.org/docs)._
