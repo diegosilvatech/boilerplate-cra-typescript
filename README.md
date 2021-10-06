@@ -85,5 +85,3 @@ My Github profile: https://github.com/coderamos/
 My Linkedin profile: https://www.linkedin.com/in/coderamos/
 
 ---
-
-_Learn more about `NextJS` through the [official documentation](https://nextjs.org/docs)._
