@@ -1,12 +1,16 @@
-import React from 'react';
+import { ThemeProvider } from 'styled-components';
 
-import { Button } from './components';
+import { Button } from 'components';
+import { theme, GlobalStyles } from 'styles';
 
 function App() {
   return (
-    <div className="App">
-      <Button />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Button />
+      </div>
+      <GlobalStyles />
+    </ThemeProvider>
   );
 }
 
