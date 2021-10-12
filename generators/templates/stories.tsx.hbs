@@ -1,0 +1,13 @@
+import { Story, Meta } from '@storybook/react/types-6-0';
+
+import {{pascalCase name}}, { {{pascalCase name}}Props } from '.';
+
+export default {
+  title: 'Design System/{{pascalCase name}}',
+  component: {{pascalCase name}},
+  parameters: {
+    jest: ['{{pascalCase name}}.test.tsx']
+  }
+} as Meta;
+
+export const {{pascalCase name}}Example: Story<{{pascalCase name}}Props> = (args) => <{{pascalCase name}} {...args} />;

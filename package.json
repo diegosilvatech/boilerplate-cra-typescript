@@ -13,7 +13,8 @@
     "test:ci": "jest --runInBand",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
     "storybook": "yarn test:generate-output && start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -59,6 +60,7 @@
     "husky": "^7.0.2",
     "jest-styled-components": "^7.0.5",
     "lint-staged": "^11.2.0",
+    "plop": "^2.7.4",
     "prettier": "2.4.1"
   },
   "eslintConfig": {
