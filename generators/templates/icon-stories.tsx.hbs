@@ -1,0 +1,13 @@
+import { Story, Meta } from '@storybook/react/types-6-0';
+
+import { {{pascalCase name}}Icon, IconType } from '.';
+
+export default {
+  title: '@Icon/{{pascalCase name}}',
+  component: {{pascalCase name}}Icon,
+  args: {
+    color: 'primary'
+  }
+} as Meta;
+
+export const {{pascalCase name}}IconDefault: Story<IconType> = (args) => <{{pascalCase name}}Icon {...args} />;
