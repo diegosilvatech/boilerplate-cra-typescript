@@ -1,6 +1,6 @@
 import * as s from './styles';
 
-import { ColorStyleProps } from 'types/globals';
+import { ColorStyleProps } from 'core/types/globals';
 
 export type IconBaseProps = {
   children: React.ReactNode;

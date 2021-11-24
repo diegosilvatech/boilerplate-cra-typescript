@@ -1,3 +1,3 @@
-import { theme } from '../styles';
+import { theme } from 'styles';
 
 export type ColorStyleProps = keyof typeof theme.colors;
