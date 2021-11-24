@@ -6,20 +6,20 @@ export default {
     black: '#000000'
   },
   grid: {
-    desktop: {
-      container: '1440px',
-      gutter: '4rem',
-      margin: '0rem'
+    smarthphone: {
+      container: '450px',
+      gutter: '1rem',
+      margin: '2rem'
     },
     tablet: {
       container: '800px',
       gutter: '2rem',
       margin: '6rem'
     },
-    smarthphone: {
-      container: '450px',
-      gutter: '1rem',
-      margin: '2rem'
+    desktop: {
+      container: '1440px',
+      gutter: '4rem',
+      margin: '0rem'
     }
   },
   border: {
@@ -34,18 +34,24 @@ export default {
     family:
       "'JetBrains Mono', Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     sizes: {
-      small: '1.75rem',
-      medium: '2rem',
-      large: '2.5rem',
-      extraLarge: '3rem',
-      extraExtraLarge: '4rem'
+      extraSmall: '1.12rem',
+      small: '1.4rem',
+      default: '1.75rem',
+      large: '2.1875rem',
+      extraLarge: '2.735rem',
+      extraExtraLarge: '3.4175rem',
+      heading: '4.2725rem',
+      display: '5.34rem'
     },
     weights: {
+      thin: 100,
+      extraLight: 200,
       light: 300,
-      normal: 400,
-      semiBold: 500,
-      bold: 600,
-      black: 700
+      regular: 400,
+      medium: 500,
+      semiBold: 600,
+      bold: 700,
+      extraBold: 800
     }
   },
   spacings: {
