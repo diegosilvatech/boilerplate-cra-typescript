@@ -7,7 +7,7 @@ export default {
   },
   grid: {
     desktop: {
-      container: '1120px',
+      container: '1440px',
       gutter: '4rem',
       margin: '0rem'
     },
@@ -17,7 +17,7 @@ export default {
       margin: '6rem'
     },
     smarthphone: {
-      container: '352px',
+      container: '450px',
       gutter: '1rem',
       margin: '2rem'
     }
