@@ -1,13 +1,9 @@
 export default {
   colors: {
-    primary: '#ED145B',
+    primary: '#000000',
 
     white: '#FFFFFF',
-    black: '#000000',
-    storybookDark: '#333333',
-    storybook: '#FF4785',
-    fiap: '#ED145B',
-    digitalHouse: '#CB1E40'
+    black: '#000000'
   },
   grid: {
     desktop: {
