@@ -1,13 +1,14 @@
 import { ThemeProvider } from 'styled-components';
 
-import { Button } from 'components';
+import Routes from 'routes';
+
 import { theme, GlobalStyles } from 'styles';
 
 function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Button />
+        <Routes />
         <GlobalStyles />
       </ThemeProvider>
     </div>
