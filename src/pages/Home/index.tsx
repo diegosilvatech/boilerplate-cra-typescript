@@ -5,7 +5,7 @@ import * as s from './styles';
 export default function Home() {
   return (
     <s.Wrapper>
-      <Button onClick={() => alert('hi!')}>click me</Button>
+      <Button onClick={() => alert('welcome!')}>click me</Button>
     </s.Wrapper>
   );
 }

@@ -27,6 +27,8 @@ export const ButtonWrapper = styled.button<ButtonProps>`
     border: none;
     padding: ${theme.spacings.medium} ${theme.spacings.medium};
     transition: background-color ${theme.transition.fast};
+    font-family: ${theme.font.family};
+    font-weight: ${theme.font.weights.light};
 
     &:hover {
       cursor: pointer;
