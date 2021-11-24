@@ -12,7 +12,7 @@ This project is a template for ReactJS project. This template was built with Cre
 
 ### AVALIABLE SCRIPTS
 
-In the project directory, you can run:
+At first, in the project directory, you need run:
 
 ```jsx
 // installing the dependencies
@@ -20,8 +20,15 @@ yarn install
 ```
 
 ```jsx
+// creates .jest-test-results.json file to @storybook/addon-jest
+yarn test:generate-output
+```
+
+#### OTHER SCRIPTS AVAILABLE
+
+```jsx
 // run project on http://localhost:3000/
-yarn dev
+yarn start
 ```
 
 _Run the app in the development mode by opening [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits._
@@ -29,11 +36,6 @@ _Run the app in the development mode by opening [http://localhost:3000](http://l
 ```jsx
 // build project
 yarn build
-```
-
-```jsx
-// starts a simple server with the build production code
-yarn start
 ```
 
 ```jsx
