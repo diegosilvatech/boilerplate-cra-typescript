@@ -84,7 +84,7 @@ const GlobalStyles: GlobalStyleComponent<
   }
 
   body {
-    font-size: ${({ theme }) => theme.font.sizes.small};
+    font-size: ${({ theme }) => theme.font.sizes.default};
     font-weight: 300;
   }
 `;
