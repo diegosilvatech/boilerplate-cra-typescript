@@ -13,7 +13,9 @@ export default {
     type: 'p',
     size: 'default',
     weight: 'medium',
-    color: 'black'
+    color: 'black',
+    opacity: 'strong',
+    isUpperCase: false
   }
 } as Meta;
 

@@ -52,6 +52,12 @@ export default {
       semiBold: 600,
       bold: 700,
       extraBold: 800
+    },
+    opacities: {
+      extraSmooth: 0.4,
+      smooth: 0.6,
+      medium: 0.8,
+      strong: 1
     }
   },
   spacings: {
