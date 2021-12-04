@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import { TextBase } from 'components';
+import { Typography } from 'components';
 
 import MediaMatch, { MediaMatchProps } from '.';
 
@@ -19,7 +19,7 @@ export const MediaMatchOnMobile: Story<MediaMatchProps> = () => (
       <strong>small</strong> screen.
     </small>
     <MediaMatch lessThan="medium">
-      <TextBase>Text on Mobile</TextBase>
+      <Typography>Text on Mobile</Typography>
     </MediaMatch>
   </>
 );
@@ -31,7 +31,7 @@ export const MediaMatchOnDesktop: Story = () => (
       <strong>large</strong> screen.
     </small>
     <MediaMatch greaterThan="medium">
-      <TextBase>Text on Tablet / Desktop</TextBase>
+      <Typography>Text on Tablet / Desktop</Typography>
     </MediaMatch>
   </>
 );

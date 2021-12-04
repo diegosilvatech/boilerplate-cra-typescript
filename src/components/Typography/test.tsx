@@ -1,12 +1,12 @@
 import { screen } from '@testing-library/react';
 import { renderWithTheme } from 'core/helpers/tests/renderWithTheme';
 
-import TextBase from '.';
+import Typography from '.';
 
-describe('<TextBase />', () => {
-  it('should render the TextBase component', () => {
+describe('<Typography />', () => {
+  it('should render the Typography component', () => {
     renderWithTheme(
-      <TextBase aria-label="TextBase component">text example</TextBase>
+      <Typography aria-label="Typography component">text example</Typography>
     );
 
     expect(screen.getByText('text example')).toBeInTheDocument();

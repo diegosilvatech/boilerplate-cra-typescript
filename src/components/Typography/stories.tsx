@@ -1,12 +1,12 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import TextBase, { TextBaseProps } from '.';
+import Typography, { TypographyProps } from '.';
 
 export default {
-  title: 'Atom/TextBase',
-  component: TextBase,
+  title: 'Atom/Typography',
+  component: Typography,
   parameters: {
-    jest: ['TextBase.test.tsx']
+    jest: ['Typography.test.tsx']
   },
   args: {
     children: 'text example',
@@ -19,7 +19,7 @@ export default {
   }
 } as Meta;
 
-export const TextBaseDefault: Story<TextBaseProps> = (args) => {
+export const TypographyDefault: Story<TypographyProps> = (args) => {
   const { children } = args;
-  return <TextBase {...args}>{children}</TextBase>;
+  return <Typography {...args}>{children}</Typography>;
 };

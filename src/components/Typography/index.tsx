@@ -7,7 +7,7 @@ import {
 
 import { theme } from 'styles';
 
-export type TextBaseProps = {
+export type TypographyProps = {
   children: string;
   color?: ColorStyleProps;
   isUpperCase?: boolean;
@@ -17,7 +17,7 @@ export type TextBaseProps = {
   weight?: TextWeightProps;
 };
 
-const TextBase = ({
+const Typography = ({
   children,
   color = 'black',
   isUpperCase = false,
@@ -25,7 +25,7 @@ const TextBase = ({
   size = 'default',
   type = 'p',
   weight = 'medium'
-}: TextBaseProps) => {
+}: TypographyProps) => {
   const Element = type;
 
   return (
@@ -42,4 +42,4 @@ const TextBase = ({
   );
 };
 
-export default TextBase;
+export default Typography;
