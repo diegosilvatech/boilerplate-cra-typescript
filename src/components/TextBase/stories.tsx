@@ -1,12 +1,12 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Text, { TextProps } from '.';
+import TextBase, { TextBaseProps } from '.';
 
 export default {
-  title: 'Atom/Text',
-  component: Text,
+  title: 'Atom/TextBase',
+  component: TextBase,
   parameters: {
-    jest: ['Text.test.tsx']
+    jest: ['TextBase.test.tsx']
   },
   args: {
     children: 'text example',
@@ -19,7 +19,7 @@ export default {
   }
 } as Meta;
 
-export const TextDefault: Story<TextProps> = (args) => {
+export const TextBaseDefault: Story<TextBaseProps> = (args) => {
   const { children } = args;
-  return <Text {...args}>{children}</Text>;
+  return <TextBase {...args}>{children}</TextBase>;
 };
