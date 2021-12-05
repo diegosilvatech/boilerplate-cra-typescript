@@ -2,30 +2,31 @@ import {
   ColorStyleProps,
   TextOpacitiesProps,
   TextSizeProps,
-  TextWeightProps
+  TextWeightProps,
+  TextTypesProps
 } from 'core/types/globals';
 
 import { theme } from 'styles';
 
-export type TypographyProps = {
+export type TextProps = {
   children: string;
+  type?: TextTypesProps;
   color?: ColorStyleProps;
-  isUpperCase?: boolean;
   opacity?: TextOpacitiesProps;
   size?: TextSizeProps;
-  type?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'p' | 'span' | 'strong';
   weight?: TextWeightProps;
+  isUpperCase?: boolean;
 };
 
-const Typography = ({
+const Text = ({
   children,
   color = 'black',
   isUpperCase = false,
-  opacity = 'strong',
+  opacity = 'full',
   size = 'default',
   type = 'p',
   weight = 'medium'
-}: TypographyProps) => {
+}: TextProps) => {
   const Element = type;
 
   return (
@@ -42,4 +43,4 @@ const Typography = ({
   );
 };
 
-export default Typography;
+export default Text;

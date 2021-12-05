@@ -57,7 +57,7 @@ export default {
       extraSmooth: 0.4,
       smooth: 0.6,
       medium: 0.8,
-      strong: 1
+      full: 1
     }
   },
   spacings: {
