@@ -3,6 +3,10 @@
 ##### react, typescript, styled-componets, storybook, jest, react testing library and more...
 
 ---
+[![made by @diegosilvatech](https://img.shields.io/badge/made%20by-Diego%20Silva-ED145B?style=for-the-badge)](https://linktr.ee/diegosilvatech)
+[![twitch](https://img.shields.io/badge/twitch-@diegosilvatech-6441a5?style=for-the-badge&logo=twitch)](https://www.twitch.tv/diegosilvatech)
+[![linkedin](https://img.shields.io/badge/linkedin-@diegosilvatech-0e76a8?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/diegosilvatech)
+
 
 ### ABOUT THIS PROJECT
 
@@ -85,10 +89,9 @@ _Learn how to install `yarn` through the [official documentation](https://yarnpk
 
 ---
 
-### ABOUT ME
+## ABOUT ME
 
-My Github profile: https://github.com/coderamos/
-
-My Linkedin profile: https://www.linkedin.com/in/coderamos/
-
----
+[![linktree](https://img.shields.io/badge/linktree-@diegosilvatech-ED145B?style=for-the-badge&logo=linktree)](https://linktr.ee/diegosilvatech)
+[![twitch](https://img.shields.io/badge/twitch-@diegosilvatech-6441a5?style=for-the-badge&logo=twitch)](https://www.twitch.tv/diegosilvatech)
+[![linkedin](https://img.shields.io/badge/linkedin-@diegosilvatech-0e76a8?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/diegosilvatech)
+[![youtube](https://img.shields.io/badge/youtube-@diegosilvatech-cc0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCECVV8ODiaQtur7EyS73i1g/videos)
