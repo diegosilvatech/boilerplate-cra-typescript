@@ -18,59 +18,29 @@ const GlobalStyles: GlobalStyleComponent<
   ${normalize};
 
   @font-face {
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 100;
-    src: local('JetBrains Mono Thin'), local('JetBrains-Mono-Thin'), url('/fonts/jetbrainsmono-thin.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 200;
-    src: local('JetBrains Mono Extra-Light'), local('JetBrains-Mono-Extra-Light'), url('/fonts/jetbrainsmono-extralight.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    src: local('JetBrains Mono Light'), local('JetBrains-Mono-Light'), url('/fonts/jetbrainsmono-light.ttf') format('truetype');
+    src: local('Montserrat Light'), local('Montserrat-Light'), url('/fonts/Montserrat-Light.ttf') format('truetype');
   }
-  
   @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: local('JetBrains Mono Regular'), local('JetBrains-Mono-Regular'), url('/fonts/jetbrainsmono-regular.ttf') format('truetype');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
   }
   
   @font-face {
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 500;
-    src: local('JetBrains Mono Medium'), local('JetBrains-Mono-Medium'), url('/fonts/jetbrainsmono-medium.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 600;
-    src: local('JetBrains Mono Semi Bold'), local('JetBrains-Mono-Semi-Bold'), url('/fonts/jetbrainsmono-semibold.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    src: local('JetBrains Mono Bold'), local('JetBrains-Mono-Bold'), url('/fonts/jetbrainsmono-bold.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 800;
-    src: local('JetBrains Mono Extra Bold'), local('JetBrains-Mono-Extra-Bold'), url('/fonts/jetbrainsmono-extrabold.ttf') format('truetype');
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/fonts/Montserrat-Bold.ttf') format('truetype');
   }
   
   html {

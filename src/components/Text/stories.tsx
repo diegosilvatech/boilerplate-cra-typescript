@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Text, { TextProps } from '.';
 
 export default {
-  title: 'Atom/Text',
+  title: 'Atoms/Text',
   component: Text,
   parameters: {
     jest: ['Text.test.tsx']

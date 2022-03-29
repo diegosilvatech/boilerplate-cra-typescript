@@ -1,5 +1,5 @@
 import theme from 'styles/theme';
-import { renderWithTheme } from 'core/helpers/tests/renderWithTheme';
+import { renderWithTheme } from 'helpers/tests/renderWithTheme';
 
 import Container from '.';
 

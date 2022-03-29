@@ -3,7 +3,7 @@ import {
   ArrowDownIcon as arrowDown
 } from 'assets/icons';
 
-import { ColorStyleProps } from 'core/types/globals';
+import { ColorStyleProps } from 'types/globals';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const icons: any = {

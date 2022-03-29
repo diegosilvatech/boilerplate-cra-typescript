@@ -5,7 +5,7 @@ import { Text } from 'components';
 import MediaMatch, { MediaMatchProps } from '.';
 
 export default {
-  title: 'Atom/MediaMatch',
+  title: 'Atoms/MediaMatch',
   component: MediaMatch,
   parameters: {
     jest: ['MediaMatch.test.tsx']

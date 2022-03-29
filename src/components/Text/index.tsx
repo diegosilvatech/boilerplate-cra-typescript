@@ -4,7 +4,7 @@ import {
   TextSizeProps,
   TextWeightProps,
   TextTypesProps
-} from 'core/types/globals';
+} from 'types/globals';
 
 import { theme } from 'styles';
 

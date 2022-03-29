@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Icon, { IconProps, icons } from '.';
 
 export default {
-  title: 'Atom/Icon',
+  title: 'Atoms/Icon',
   component: Icon,
   parameters: {
     jest: ['Icon.test.tsx']

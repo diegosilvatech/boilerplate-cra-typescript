@@ -32,7 +32,7 @@ export default {
   },
   font: {
     family:
-      "'JetBrains Mono', Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+      "Montserrat, Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     sizes: {
       extraSmall: '1.12rem',
       small: '1.4rem',
