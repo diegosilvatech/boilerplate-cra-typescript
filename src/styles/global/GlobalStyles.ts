@@ -4,7 +4,7 @@ import {
   GlobalStyleComponent
 } from 'styled-components';
 
-import normalize from '../normalize';
+import normalize from '../normalize/normalize';
 
 type GlobalStylesProps = {
   removeBackgroundColor?: boolean;
