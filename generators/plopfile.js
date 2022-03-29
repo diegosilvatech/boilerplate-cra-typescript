@@ -92,7 +92,7 @@ module.exports = (plop) => {
         type: 'append',
         path: '../src/components/Icon/index.tsx',
         pattern: `/* PLOP_INJECT_ICON_TYPES */`,
-        template: `  | '{{camelCase name}}'\n  `
+        template: `'{{camelCase name}}' |\n  `
       }
     ]
   });
