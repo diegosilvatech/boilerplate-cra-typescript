@@ -66,11 +66,6 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
-        path: '../src/assets/icons/{{pascalCase name}}/stories.tsx',
-        templateFile: 'templates/icon-stories.tsx.hbs'
-      },
-      {
-        type: 'add',
         path: '../src/assets/icons/index.ts',
         templateFile: 'templates/injectable-index.ts.hbs',
         skipIfExists: true
