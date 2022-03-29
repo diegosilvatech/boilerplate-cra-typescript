@@ -1,4 +1,4 @@
-import * as s from './styles';
+import * as s from './Button.styles';
 
 export type ButtonProps = {
   children: React.ReactChild;

@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { Text } from 'components';
 
-import MediaMatch, { MediaMatchProps } from '.';
+import MediaMatch, { MediaMatchProps } from './MediaMatch.component';
 
 export default {
   title: 'Atoms/MediaMatch',

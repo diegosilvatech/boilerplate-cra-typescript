@@ -1,8 +1,8 @@
 import { Button, Container } from 'components';
 
-import * as s from './styles';
+import * as s from './Home.styles';
 
-export default function HomePage() {
+export default function Home() {
   return (
     <s.Wrapper>
       <Container>

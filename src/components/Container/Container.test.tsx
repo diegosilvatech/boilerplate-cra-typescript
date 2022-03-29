@@ -1,7 +1,7 @@
 import theme from 'styles/theme';
 import { renderWithTheme } from 'helpers/tests/renderWithTheme';
 
-import Container from '.';
+import Container from './Container.component';
 
 describe('<Container />', () => {
   it('should render the heading', () => {

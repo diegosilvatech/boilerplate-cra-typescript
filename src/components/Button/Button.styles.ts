@@ -1,7 +1,7 @@
 import styled, { css, DefaultTheme } from 'styled-components';
 import { darken, tint } from 'polished';
 
-import { ButtonProps } from '.';
+import { ButtonProps } from './Button.component';
 
 const buttonModifiers = {
   primary: (theme: DefaultTheme) => css`

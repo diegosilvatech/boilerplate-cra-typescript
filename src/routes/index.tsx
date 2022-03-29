@@ -4,7 +4,7 @@ import {
   Route
 } from 'react-router-dom';
 
-import Home from 'pages/HomePage';
+import Home from 'pages/Home/Home.component';
 
 export default function Routes() {
   return (

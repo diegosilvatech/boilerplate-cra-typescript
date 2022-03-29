@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-import Container from '.';
+import Container from './Container.component';
 
 export default {
   title: 'Atoms/Container',
