@@ -1,9 +1,9 @@
-# BOILERPLATE | CRA with TypeScript
+# BOILERPLATE | React + TypeScript (Create React App)
 
 ##### react, typescript, styled-componets, storybook, jest, react testing library and more...
 
 ---
-[![made by @diegosilvatech](https://img.shields.io/badge/made%20by-Diego%20Silva-ED145B?style=for-the-badge)](https://linktr.ee/diegosilvatech)
+[![made by @diegosilvatech](https://img.shields.io/badge/made%20by-@diegosilvatech-ED145B?style=for-the-badge)](https://linktr.ee/diegosilvatech)
 
 ## ABOUT THIS PROJECT
 
