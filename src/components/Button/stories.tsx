@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-import Button, { ButtonProps } from './Button.component';
+import Button, { ButtonProps } from './Button';
 
 export default {
   title: 'Atoms/Button',
@@ -7,9 +7,6 @@ export default {
   args: {
     variant: 'primary',
     children: 'button label'
-  },
-  parameters: {
-    jest: ['Button.test.tsx']
   }
 } as Meta;
 

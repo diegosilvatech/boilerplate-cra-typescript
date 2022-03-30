@@ -1,4 +1,4 @@
-import * as s from './IconBase.styles';
+import * as s from './styles';
 
 import { ColorStyleProps } from 'types/globals';
 

@@ -1,6 +1,3 @@
-import { addDecorator } from '@storybook/react';
-
-import { withTests } from '@storybook/addon-jest';
 import { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles, theme } from 'styles';
@@ -13,8 +10,6 @@ export const decorators = [
     </ThemeProvider>
   )
 ];
-
-import results from '../.jest-test-results.json';
 
 export const parameters = {
   a11y: { disable: true },
@@ -45,5 +40,3 @@ export const parameters = {
     }
   }
 }
-
-addDecorator(withTests({ results }));

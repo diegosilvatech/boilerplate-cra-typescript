@@ -1,13 +1,10 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Icon, { IconProps, icons } from './Icon.component';
+import Icon, { IconProps, icons } from './Icon';
 
 export default {
   title: 'Atoms/Icon',
   component: Icon,
-  parameters: {
-    jest: ['Icon.test.tsx']
-  },
   args: {
     name: 'arrowDown',
     color: 'primary'

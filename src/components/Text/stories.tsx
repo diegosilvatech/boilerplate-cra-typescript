@@ -1,13 +1,10 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import Text, { TextProps } from './Text.component';
+import Text, { TextProps } from './Text';
 
 export default {
   title: 'Atoms/Text',
   component: Text,
-  parameters: {
-    jest: ['Text.test.tsx']
-  },
   args: {
     children: 'Text example',
     type: 'p',

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { IconBaseProps } from './IconBase.component';
+import { IconBaseProps } from './IconBase';
 
 export const Wrapper = styled.div<IconBaseProps>`
   ${({ theme, color = 'primary' }) => css`

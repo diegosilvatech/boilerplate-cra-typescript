@@ -1,6 +1,4 @@
-import IconBase, {
-  IconBaseProps
-} from 'components/IconBase/IconBase.component';
+import IconBase, { IconBaseProps } from 'components/IconBase/IconBase';
 
 export type IconType = Pick<IconBaseProps, 'color'>;
 

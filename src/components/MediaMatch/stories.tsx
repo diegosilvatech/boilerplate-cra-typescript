@@ -2,14 +2,11 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { Text } from 'components';
 
-import MediaMatch, { MediaMatchProps } from './MediaMatch.component';
+import MediaMatch, { MediaMatchProps } from './MediaMatch';
 
 export default {
   title: 'Atoms/MediaMatch',
-  component: MediaMatch,
-  parameters: {
-    jest: ['MediaMatch.test.tsx']
-  }
+  component: MediaMatch
 } as Meta;
 
 export const MediaMatchOnMobile: Story<MediaMatchProps> = () => (

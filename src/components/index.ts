@@ -1,10 +1,10 @@
 /* PLOP_INJECT_IMPORT */
-import MediaMatch from './MediaMatch/MediaMatch.component';
-import Text from './Text/Text.component';
-import Container from './Container/Container.component';
-import Button from './Button/Button.component';
-import IconBase from './IconBase/IconBase.component';
-import Icon from './Icon/Icon.component';
+import MediaMatch from './MediaMatch/MediaMatch';
+import Text from './Text/Text';
+import Container from './Container/Container';
+import Button from './Button/Button';
+import IconBase from './IconBase/IconBase';
+import Icon from './Icon/Icon';
 
 export {
   /* PLOP_INJECT_EXPORT */

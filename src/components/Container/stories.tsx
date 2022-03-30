@@ -1,12 +1,9 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-import Container from './Container.component';
+import Container from './Container';
 
 export default {
   title: 'Atoms/Container',
-  component: Container,
-  parameters: {
-    jest: ['Container.test.tsx']
-  }
+  component: Container
 } as Meta;
 
 export const Default: Story = () => {

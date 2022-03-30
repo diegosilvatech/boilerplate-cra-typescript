@@ -1,6 +1,6 @@
 import { Button, Container } from 'components';
 
-import * as s from './Home.styles';
+import * as s from './styles';
 
 export default function Home() {
   return (
