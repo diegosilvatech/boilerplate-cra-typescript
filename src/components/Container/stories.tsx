@@ -3,10 +3,14 @@ import Container from './Container';
 
 export default {
   title: 'Atoms/Container',
-  component: Container
+  component: Container,
+  parameters: {
+    controls: { disabled: true },
+    actions: { disabled: true }
+  }
 } as Meta;
 
-export const Default: Story = () => {
+export const ContainerDefault: Story = () => {
   return (
     <div
       style={{ backgroundColor: 'lightcyan', border: '2px solid lightblue' }}

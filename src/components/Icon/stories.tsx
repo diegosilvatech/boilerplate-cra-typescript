@@ -11,9 +11,20 @@ export default {
   },
   argTypes: {
     name: {
-      options: Object.keys(icons),
+      table: {
+        category: 'custom modifiers'
+      },
       control: {
         type: 'select'
+      },
+      options: Object.keys(icons)
+    },
+    color: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'inline-radio'
       }
     }
   }

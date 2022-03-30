@@ -7,10 +7,30 @@ export default {
   args: {
     variant: 'primary',
     children: 'button label'
+  },
+  argTypes: {
+    variant: {
+      table: {
+        category: 'modifiers'
+      },
+      control: {
+        type: 'inline-radio'
+      }
+    },
+    children: {
+      table: {
+        category: 'custom inputs'
+      }
+    },
+    onClick: {
+      table: {
+        category: 'custom inputs'
+      }
+    }
   }
 } as Meta;
 
-export const Default: Story<ButtonProps> = (args) => {
+export const ButtonDefault: Story<ButtonProps> = (args) => {
   const { children } = args;
   return <Button {...args}>{children}</Button>;
 };

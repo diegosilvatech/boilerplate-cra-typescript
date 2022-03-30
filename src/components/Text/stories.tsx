@@ -13,6 +13,63 @@ export default {
     color: 'black',
     opacity: 'full',
     isUpperCase: false
+  },
+  argTypes: {
+    children: {
+      table: {
+        category: 'custom inputs'
+      }
+    },
+    name: {
+      table: {
+        category: 'custom modifiers'
+      }
+    },
+    color: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'inline-radio'
+      }
+    },
+    type: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'select'
+      }
+    },
+    size: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'select'
+      }
+    },
+    opacity: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'select'
+      }
+    },
+    weight: {
+      table: {
+        category: 'custom modifiers'
+      },
+      control: {
+        type: 'select'
+      }
+    },
+    isUpperCase: {
+      table: {
+        category: 'custom modifiers'
+      }
+    }
   }
 } as Meta;
 

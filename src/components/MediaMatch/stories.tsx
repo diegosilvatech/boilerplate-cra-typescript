@@ -6,7 +6,11 @@ import MediaMatch, { MediaMatchProps } from './MediaMatch';
 
 export default {
   title: 'Atoms/MediaMatch',
-  component: MediaMatch
+  component: MediaMatch,
+  parameters: {
+    controls: { disabled: true },
+    actions: { disabled: true }
+  }
 } as Meta;
 
 export const MediaMatchOnMobile: Story<MediaMatchProps> = () => (
