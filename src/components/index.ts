@@ -1,4 +1,5 @@
 /* PLOP_INJECT_IMPORT */
+import Form from './Form';
 import Input from './Input';
 import MediaMatch from './MediaMatch/MediaMatch';
 import Text from './Text/Text';
@@ -9,6 +10,7 @@ import Icon from './Icon/Icon';
 
 export {
   /* PLOP_INJECT_EXPORT */
+  Form,
   Input,
   MediaMatch,
   Text,

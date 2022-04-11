@@ -5,7 +5,7 @@ import { Text } from 'components';
 import MediaMatch, { MediaMatchProps } from './MediaMatch';
 
 export default {
-  title: 'Atoms/MediaMatch',
+  title: 'Molecules/MediaMatch',
   component: MediaMatch,
   parameters: {
     controls: { disabled: true },

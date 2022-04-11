@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Text, { TextProps } from './Text';
 
 export default {
-  title: 'Atoms/Text',
+  title: 'Molecules/Text',
   component: Text,
   args: {
     children: 'Text example',

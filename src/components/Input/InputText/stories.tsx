@@ -5,7 +5,7 @@ import { ArrowDownIcon } from 'assets/icons';
 import InputText, { InputTextProps } from '.';
 
 export default {
-  title: 'InputText',
+  title: 'Cells/InputText',
   component: InputText,
   args: {
     name: 'name',

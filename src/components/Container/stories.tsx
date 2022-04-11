@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Container from './Container';
 
 export default {
-  title: 'Atoms/Container',
+  title: 'Molecules/Container',
   component: Container,
   parameters: {
     controls: { disabled: true },
