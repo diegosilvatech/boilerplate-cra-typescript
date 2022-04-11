@@ -23,12 +23,13 @@ const buttonModifiers = {
 };
 
 export const ButtonWrapper = styled.button<ButtonProps>`
-  ${({ theme, variant }) => css`
+  ${({ theme, variant, fullWidth }) => css`
     border: none;
     padding: ${theme.spacings.medium} ${theme.spacings.medium};
     transition: background-color ${theme.transition.fast};
     font-family: ${theme.font.family};
     font-weight: ${theme.font.weights.light};
+    width: ${fullWidth ? '100%' : 'auto'};
 
     &:hover {
       cursor: pointer;

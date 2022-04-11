@@ -6,7 +6,8 @@ export default {
   component: Button,
   args: {
     variant: 'primary',
-    children: 'button label'
+    children: 'button label',
+    fullWidth: true
   },
   argTypes: {
     variant: {
