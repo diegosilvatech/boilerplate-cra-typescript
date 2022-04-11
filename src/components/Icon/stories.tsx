@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Icon, { IconProps, icons } from './Icon';
 
 export default {
-  title: 'Atoms/Icon',
+  title: 'Molecules/Icon',
   component: Icon,
   args: {
     name: 'arrowDown',

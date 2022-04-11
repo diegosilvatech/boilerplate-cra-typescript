@@ -2,11 +2,12 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Button, { ButtonProps } from './Button';
 
 export default {
-  title: 'Atoms/Button',
+  title: 'Molecules/Button',
   component: Button,
   args: {
     variant: 'primary',
-    children: 'button label'
+    children: 'button label',
+    fullWidth: true
   },
   argTypes: {
     variant: {

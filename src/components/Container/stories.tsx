@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/react/types-6-0';
 import Container from './Container';
 
 export default {
-  title: 'Atoms/Container',
+  title: 'Molecules/Container',
   component: Container,
   parameters: {
     controls: { disabled: true },
@@ -12,14 +12,12 @@ export default {
 
 export const ContainerDefault: Story = () => {
   return (
-    <div
-      style={{ backgroundColor: 'lightcyan', border: '2px solid lightblue' }}
-    >
+    <div style={{ backgroundColor: '#FF478550', border: '2px solid #ED145B' }}>
       <Container>
         <div
           style={{
-            backgroundColor: 'lightcyan',
-            border: '2px solid lightseagreen'
+            backgroundColor: '#FF478550',
+            border: '2px solid #ED145B'
           }}
         >
           responsible content

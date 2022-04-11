@@ -25,7 +25,7 @@ const Text = ({
   opacity = 'full',
   size = 'default',
   type = 'p',
-  weight = 'medium'
+  weight = 'regular'
 }: TextProps) => {
   const Element = type;
 
