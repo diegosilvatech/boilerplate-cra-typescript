@@ -34,24 +34,21 @@ export default {
     family:
       "Montserrat, Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     sizes: {
-      extraSmall: '1.12rem',
-      small: '1.4rem',
-      default: '1.75rem',
-      large: '2.1875rem',
-      extraLarge: '2.735rem',
-      extraExtraLarge: '3.4175rem',
-      heading: '4.2725rem',
-      display: '5.34rem'
+      extraSmall: '1.25rem',
+      small: '1.625rem',
+      default: '2rem',
+      large: '2.5rem',
+      extraLarge: '3.125rem',
+      extraExtraLarge: '3.875rem',
+      heading: '4.875rem',
+      display: '6.125rem',
+      huge: '7.625rem'
     },
     weights: {
-      thin: 100,
-      extraLight: 200,
       light: 300,
       regular: 400,
-      medium: 500,
       semiBold: 600,
-      bold: 700,
-      extraBold: 800
+      bold: 700
     },
     opacities: {
       extraSmooth: 0.4,
