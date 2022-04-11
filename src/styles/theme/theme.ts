@@ -3,7 +3,18 @@ export default {
     primary: '#000000',
 
     white: '#FFFFFF',
-    black: '#000000'
+    black: '#000000',
+
+    vampireBlack: '#080808',
+    eerieBlack: '#1C1C1C',
+    darkCharcoal: '#333333',
+
+    raspberry: '#ED145B',
+    cardinal: '#CB1E40',
+    sasquatchSocks: '#FF4785',
+
+    philippineYellow: '#FFCB00',
+    aqua: '#00E7F9'
   },
   grid: {
     smarthphone: {
